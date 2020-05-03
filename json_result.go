@@ -7,6 +7,10 @@ type JsonResult struct {
 	Success   bool        `json:"success"`
 }
 
+/**
+
+*/
+
 func Json(code int, message string, data interface{}, success bool) *JsonResult {
 	return &JsonResult{
 		ErrorCode: code,

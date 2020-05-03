@@ -1,4 +1,4 @@
-module github.com/pangxianfei/simple
+module github.com/pangxianfei/tmaic_simple
 
 go 1.13
 
